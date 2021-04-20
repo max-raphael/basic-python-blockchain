@@ -3,7 +3,7 @@ import time
 
 
 
-class Blockchain(self):
+class Blockchain:
     def __init__(self):
         self.uncomfirmed_transactions = []
         self.chain = []
